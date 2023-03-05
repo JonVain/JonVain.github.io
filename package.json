@@ -1,0 +1,28 @@
+{
+	"name": "svelte-demo",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"svelte": "^3.55.1",
+		"svelte-youtube-embed": "^0.1.8",
+		"sveltekit-embed": "^0.0.12",
+		"vite": "^4.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@picocss/pico": "^1.5.7",
+		"@svelteuidev/composables": "^0.10.0",
+		"@svelteuidev/core": "^0.10.0",
+		"bootstrap": "^5.2.3",
+		"gh-pages": "^5.0.0",
+		"svelte-video-player": "^1.0.10",
+		"sveltestrap": "^5.10.0"
+	}
+}
