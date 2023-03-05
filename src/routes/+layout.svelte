@@ -1,5 +1,4 @@
 <script>
-    export const prerender = true;
     import pico from "@picocss/pico";
     import { base } from "$app/paths";
 </script>

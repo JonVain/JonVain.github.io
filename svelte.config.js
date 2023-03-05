@@ -11,6 +11,10 @@ const config = {
 		}),
 		paths: {
 			base: dev ? '' : '/JonVain.github.io',
+		},
+		prerender: {
+
+			handleMissingId: "warn",
 		}
 	}
 };
