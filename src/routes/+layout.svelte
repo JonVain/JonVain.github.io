@@ -1,26 +1,24 @@
-<script context="module">
-    export const prerender = true;
-</script>
-
 <script>
+    export const prerender = true;
     import pico from "@picocss/pico";
+    import { base } from "$app/paths";
 </script>
 
 <nav class="layout">
     <li>
-        <a prefetch href="/">Etusivu</a>
+        <a prefetch href="{base}/">Etusivu</a>
     </li>
     <li>
-        <a prefetch href="/gallery">Galleria</a>
+        <a prefetch href="{base}/gallery">Galleria</a>
     </li>
     <li>
-        <a prefetch href="/music">Musiikki</a>
+        <a prefetch href="{base}/music">Musiikki</a>
     </li>
     <li>
-        <a prefetch href="/stories">Tarinat</a>
+        <a prefetch href="{base}/stories">Tarinat</a>
     </li>
     <li>
-        <a prefetch href="/contact">Yhteystiedot</a>
+        <a prefetch href="{base}/contact">Yhteystiedot</a>
     </li>
 </nav>
 
