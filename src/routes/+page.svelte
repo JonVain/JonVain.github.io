@@ -44,13 +44,17 @@
             Voluptates animi provident vero minima architecto consequuntur
             adipisci iusto suscipit natus.
             <Figure caption="Hyvää joulua">
-                <Image
-                    fluid
-                    alt="Landscape"
-                    src="https://images.pexels.com/photos/4067188/pexels-photo-4067188.jpeg?"
-                    class="d-block vh-100 vw-25"
-                    style="max-width:100%;height:auto;"
-                />
+                <a
+                    href="https://images.pexels.com/photos/4067188/pexels-photo-4067188.jpeg?"
+                >
+                    <Image
+                        fluid
+                        alt="Landscape"
+                        src="https://images.pexels.com/photos/4067188/pexels-photo-4067188.jpeg?"
+                        class="d-block vh-100 vw-25"
+                        style="max-width:100%;height:auto;"
+                    /></a
+                >
             </Figure>
         </CardText>
     </CardBody>
