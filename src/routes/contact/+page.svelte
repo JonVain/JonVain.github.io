@@ -46,7 +46,7 @@
         word-wrap: break-word;
     }
     #taustakuva {
-        background-image: url(kuubg.jpg);
+        background-image: url("https://images.pexels.com/photos/12733865/pexels-photo-12733865.png?");
         height: 200vh;
         background-size: auto;
         background-repeat: no-repeat;
