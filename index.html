@@ -4,7 +4,7 @@
 <head>
 	<base href="./">
 	<meta charset="utf-8" />
-	<link rel="icon" href="/JonVain.github.io/favicon.png" />
+	<link rel="icon" href="/favicon.png" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<head>
@@ -12,34 +12,33 @@
 	</head>
 
 	<meta http-equiv="content-security-policy" content="">
-	<script type="text/javascript" src="/JonVain.github.io/_app/immutable/entry/start.e2d64183.js"></script>
-	<script type="text/javascript" src="/JonVain.github.io/_app/immutable/chunks/index.8389c308.js"></script>
-	<script type="text/javascript" src="/JonVain.github.io/_app/immutable/chunks/singletons.159c033a.js"></script>
-	<script type="text/javascript" src="/JonVain.github.io/_app/immutable/chunks/paths.8866e659.js"></script>
-	<script type="text/javascript" src="/JonVain.github.io/_app/immutable/entry/app.b61434c3.js"></script>
+		<link rel="modulepreload" href="/_app/immutable/entry/start.7a36bf7c.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.8389c308.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.ba6abc2d.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/paths.648f1999.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.12845c52.js">
 </head>
 
 
 <body data-sveltekit-preload-data="hover">
 	<div style="display: contents">
-		<script>
-			{
-				__sveltekit_lfw471 = {
-					env: {},
-					assets: "/JonVain.github.io",
-					base: "/JonVain.github.io",
-					element: document.currentScript.parentElement
-				};
+			<script>
+				{
+					__sveltekit_k9op5m = {
+						env: {},
+						base: "",
+						element: document.currentScript.parentElement
+					};
 
-				Promise.all([
-					import("/JonVain.github.io/_app/immutable/entry/start.e2d64183.js"),
-					import("/JonVain.github.io/_app/immutable/entry/app.b61434c3.js")
-				]).then(([kit, app]) => {
-					kit.start(app, __sveltekit_lfw471.element);
-				});
-			}
-		</script>
-	</div>
+					Promise.all([
+						import("/_app/immutable/entry/start.7a36bf7c.js"),
+						import("/_app/immutable/entry/app.12845c52.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_k9op5m.element);
+					});
+				}
+			</script>
+		</div>
 </body>
 
 </html>
