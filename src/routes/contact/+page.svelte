@@ -2,6 +2,7 @@
   <h1>Yhteystiedot</h1>
   <p id="yt">Jonne Vainikainen</p>
   <p>040123123</p>
+  <p>Kuopio</p>
   <b />
   <hr
     class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700"
